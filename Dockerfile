@@ -10,8 +10,8 @@ RUN cd /app/
 RUN go clean -modcache
 RUN go install github.com/ebkopec/t@latest
 RUN git clone https://github.com/EBKopec/t.git
-RUN pwd
 RUN cd t/ && go build
+RUN chmod +x /app -R
 
 # Expose app port
 EXPOSE 8888
