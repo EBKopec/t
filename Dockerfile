@@ -3,16 +3,16 @@ FROM golang:latest
 
 #Set Workdir
 RUN mkdir /app
+ADD . /app
 WORKDIR /app
 
 # Fetch and build app
-RUN cd /app/
+RUN export GO111MOLUDE=on
 RUN go clean -modcache
 RUN go install github.com/ebkopec/t@latest
-RUN git clone https://github.com/EBKopec/t.git
-RUN cd t/ && go build
-RUN chmod +x /app -R
-
+RUN cd /app/ && git clone https://github.com/EBKopec/t.git
+RUN cd /app/t/ && go build
+RUN ls -ltr /app/t/*
 # Expose app port
 EXPOSE 8888
 
