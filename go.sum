@@ -1,5 +1,3 @@
-github.com/ebkopec/t v0.0.0-20220406013515-f20c98ac4f5c h1:rKeTNW+lIIOKGY4F5Y+Hu7/i15KVSyuTzF+3X4zhM3Q=
-github.com/ebkopec/t v0.0.0-20220406013515-f20c98ac4f5c/go.mod h1:PNWEeS5rojILbMsZB4jcHXal6OMncEDzoGxiKcB7URw=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
 github.com/joho/godotenv v1.4.0 h1:3l4+N6zfMWnkbPEXKng2o2/MR5mSwTrBih4ZEkkz1lg=

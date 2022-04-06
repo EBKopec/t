@@ -10,13 +10,14 @@ RUN cd /app/
 RUN go clean -modcache
 RUN go install github.com/ebkopec/t@latest
 RUN git clone https://github.com/EBKopec/t.git
+RUN pwd
 RUN cd t/ && go build
 
 # Expose app port
 EXPOSE 8888
 
 # Run service entrypoint
-ENTRYPOINT ["/app/neoway_etl_test/t"]
+ENTRYPOINT ["/app/t"]
 #ENTRYPOINT ["tail"]
 #CMD ["-f","/dev/null"]
 
