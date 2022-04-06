@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	"github.com/ddaraujo/neoway_etl_test/models"
+	"github.com/ebkopec/t/models"
 )
 
 // Get all valid items

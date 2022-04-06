@@ -1,4 +1,4 @@
-module github.com/ddaraujo/neoway_etl_test
+module github.com/ebkopec/t
 
 go 1.18
 

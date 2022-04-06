@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ddaraujo/neoway_etl_test/db"
-	"github.com/ddaraujo/neoway_etl_test/handler"
+	"github.com/ebkopec/t/db"
+	"github.com/ebkopec/t/handler"
 	"github.com/joho/godotenv"
 )
 

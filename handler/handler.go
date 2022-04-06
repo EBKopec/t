@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ddaraujo/neoway_etl_test/db"
+	"github.com/ebkopec/t/db"
 
 	"github.com/gorilla/mux"
 )
